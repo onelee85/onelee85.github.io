@@ -1,0 +1,643 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.lug.ustc.edu.cn/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="复盘,研发部," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="光阴似箭，又一年过去了。今年中国和全年是多灾多难的一年，疫情的大爆发，全国人民大家齐心协力恢复生产和生活。这一年我继续负责整个研发团队，并且在第个季度兼管产品和设计团队，一年下来有得有失，这里对全年的工作做个总结。">
+<meta name="keywords" content="复盘,研发部">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2020研发部年终总结">
+<meta property="og:url" content="https://onelee85.github.io/总结/2020研发部年终总结/index.html">
+<meta property="og:site_name" content="James&#39;s 烂笔头">
+<meta property="og:description" content="光阴似箭，又一年过去了。今年中国和全年是多灾多难的一年，疫情的大爆发，全国人民大家齐心协力恢复生产和生活。这一年我继续负责整个研发团队，并且在第个季度兼管产品和设计团队，一年下来有得有失，这里对全年的工作做个总结。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://onelee85.github.io/images/2020/2020done.png">
+<meta property="og:updated_time" content="2021-01-12T06:08:23.365Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="2020研发部年终总结">
+<meta name="twitter:description" content="光阴似箭，又一年过去了。今年中国和全年是多灾多难的一年，疫情的大爆发，全国人民大家齐心协力恢复生产和生活。这一年我继续负责整个研发团队，并且在第个季度兼管产品和设计团队，一年下来有得有失，这里对全年的工作做个总结。">
+<meta name="twitter:image" content="https://onelee85.github.io/images/2020/2020done.png">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 3109763,
+      author: 'Charles0429'
+    }
+  };
+</script>
+
+  <title> 2020研发部年终总结 | James's 烂笔头 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?6783c3663ad3a4aee432726abc0999c9";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">James's 烂笔头</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">好记心不如烂笔头</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                2020研发部年终总结
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2021-01-12T13:39:00+00:00" content="2021-01-12">
+              2021-01-12
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/总结/" itemprop="url" rel="index">
+                    <span itemprop="name">总结</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>光阴似箭，又一年过去了。今年中国和全年是多灾多难的一年，疫情的大爆发，全国人民大家齐心协力恢复生产和生活。这一年我继续负责整个研发团队，并且在第个季度兼管产品和设计团队，一年下来有得有失，这里对全年的工作做个总结。</p>
+<a id="more"></a>
+<h1 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h1><h2 id="研发团队"><a href="#研发团队" class="headerlink" title="研发团队"></a>研发团队</h2><p>全年共完成需求：550+，研发任务 1800+。<br>安卓崩溃率突破历史最低值，从千分之2到万分之7 。<br>iOS新包 <strong>两周</strong>上线过审，两个月内完成一年工作量功能的追赶（182个功能模块）。<br>运维服务：稳可用性维持99.99%。成本优化： 减少50W费用。</p>
+<h2 id="产品和设计团队"><a href="#产品和设计团队" class="headerlink" title="产品和设计团队"></a>产品和设计团队</h2><h3 id="产品团队"><a href="#产品团队" class="headerlink" title="产品团队"></a>产品团队</h3><p><em>围绕用户为中心团队的核心价值和文化</em><br>1.组织用户反馈会：组织运营客服等部门共同参与，用户反馈问题落实到具体任务。<br>2.组织发布宣讲会：确保每次新版本发布能第一时间让其他部门悉知。<br>3.推进用户问卷调研和访谈、竞品调研。<br>4.职责分工：提出了以数据驱动如：激活、留存、付费。 从以需求为目的转变为以数据驱动的工作方式。</p>
+<h3 id="设计团队"><a href="#设计团队" class="headerlink" title="设计团队"></a>设计团队</h3><p>梳理当前设计团队问题：通过目标设定，规划，组织设计团队周会分享会、晨会、产品沟通会等。<br>1.<strong>设计稿如期交付：</strong>配合产品协调与规划确保设计稿能在研发迭代开始时按时交付。<br>2.<strong>动画特效对标一线平台：</strong>组织设研团队调研一线平台礼物动效，Q4季度产出优秀礼物。<br>3.<strong>设计规范建立：</strong>设计规范的实施与落地。</p>
+<h1 id="回顾"><a href="#回顾" class="headerlink" title="回顾"></a>回顾</h1><p><em>工作重心 - 产出了什么，价值是什么</em></p>
+<p><img src="/images/2020/2020done.png" alt="2020done"></p>
+<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><h2 id="历史遗留问题"><a href="#历史遗留问题" class="headerlink" title="历史遗留问题"></a>历史遗留问题</h2><p>1.业务代码及时进行code review。<br>2.总结历史问题，提炼出领域模型和方法论。</p>
+<h2 id="线上故障处理效率过慢"><a href="#线上故障处理效率过慢" class="headerlink" title="线上故障处理效率过慢"></a>线上故障处理效率过慢</h2><p>1.建立起客服到测试及时反馈机制和标准流程<br>2.客户端核心功能异常日志上报以及预警监控<br>3.核心业务性能测试</p>
+<h2 id="风控策略漏洞"><a href="#风控策略漏洞" class="headerlink" title="风控策略漏洞"></a>风控策略漏洞</h2><p>1.涉及到财产和柠檬的功能评审严格把关<br>2.后端免费领取类业务逐步接入到风控<br>3.需求上线后产品对上线数据及时跟进</p>
+<h2 id="部分活动线上问题"><a href="#部分活动线上问题" class="headerlink" title="部分活动线上问题"></a>部分活动线上问题</h2><p>1.每次活动后及时复盘<br>2.总结常见问题，提炼出导致问题的原因<br>3.重要活动提前准备checklist，并具体到责任人<br>4.关键奖励方法制定流程，并严格实施</p>
+<h2 id="客户端闪退和卡顿问题"><a href="#客户端闪退和卡顿问题" class="headerlink" title="客户端闪退和卡顿问题"></a>客户端闪退和卡顿问题</h2><p>1.定期进行性能测试<br>2.接入性能监控平台</p>
+<h1 id="团队管理"><a href="#团队管理" class="headerlink" title="团队管理"></a>团队管理</h1><p>1.提升团队内部各小组leader的管理能力, 定期分享领导力和团队管理知识。<br>2.制定虚拟项目小组、推进敏捷落地。例：iOS冲刺小组。<br>3.招募培训核心人员，制定团队梯度、人员数量目标，确保控制在一定范围内人力成本达到最优产出。<br>4.通过技术手段提升业务部门人效，提供发展有力的平台工具。例：发布平台、STF系统、自动化测试。<br>5.引导团队氛围，推进简单、公开、公正的团队文化，进行凝聚力和执行力的建设。团队20人全年主动离职仅1人。<br>6.解决团队协作方面的问题，包括内部协作，外部上下游协作等遇到的问题。例：产研团队合作矛盾纠纷</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/复盘/" rel="tag">#复盘</a>
+          
+            <a href="/tags/研发部/" rel="tag">#研发部</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/管理/研发团队之效能提升/" rel="next" title="研发团队之效能提升">
+                <i class="fa fa-chevron-left"></i> 研发团队之效能提升
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="James" />
+          <p class="site-author-name" itemprop="name">James</p>
+          <p class="site-description motion-element" itemprop="description">好记心不如烂笔头</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">46</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">18</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">54</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/onelee85" target="_blank" title="Github">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Github
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#概要"><span class="nav-number">1.</span> <span class="nav-text">概要</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#研发团队"><span class="nav-number">1.1.</span> <span class="nav-text">研发团队</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#产品和设计团队"><span class="nav-number">1.2.</span> <span class="nav-text">产品和设计团队</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#产品团队"><span class="nav-number">1.2.1.</span> <span class="nav-text">产品团队</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设计团队"><span class="nav-number">1.2.2.</span> <span class="nav-text">设计团队</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#回顾"><span class="nav-number">2.</span> <span class="nav-text">回顾</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#问题"><span class="nav-number">3.</span> <span class="nav-text">问题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#历史遗留问题"><span class="nav-number">3.1.</span> <span class="nav-text">历史遗留问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#线上故障处理效率过慢"><span class="nav-number">3.2.</span> <span class="nav-text">线上故障处理效率过慢</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#风控策略漏洞"><span class="nav-number">3.3.</span> <span class="nav-text">风控策略漏洞</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#部分活动线上问题"><span class="nav-number">3.4.</span> <span class="nav-text">部分活动线上问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#客户端闪退和卡顿问题"><span class="nav-number">3.5.</span> <span class="nav-text">客户端闪退和卡顿问题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#团队管理"><span class="nav-number">4.</span> <span class="nav-text">团队管理</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">James</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+<script type="text/javascript" async src="//push.zhanzhang.baidu.com/push.js">
+</script>
+
+
+</body>
+</html>
